@@ -1,0 +1,72 @@
+.note-container{
+    background-color:white;
+    width: 16rem;
+    height: 12rem;
+    max-height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    float: left;
+    margin-left: 3rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+
+.note-inner-container{
+    /* background-color: blueviolet; */
+    /* padding: 40x; */
+ 
+    width: 220px;
+    max-height: 13rem;
+    /* max-height: 15rem; */
+    
+}
+
+.note-title-container,.note-addnote-container{
+    /* background-color: azure; */
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: min-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.note-addnote-container{
+    font-size: 0.9rem;
+    
+}
+
+.note-title-container{
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+section{
+    /* background-color: aquamarine; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* background-color: brown; */
+}
+
+.deletenote{
+    background-color:cadetblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 180px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

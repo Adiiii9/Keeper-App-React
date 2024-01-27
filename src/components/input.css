@@ -1,0 +1,57 @@
+body{
+    background-color:ghostwhite;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color:ghostwhite;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    
+}
+
+.title-input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-top-left-radius:9px ;
+    border-top-right-radius:9px ;
+    padding-left: 9px;
+    outline: none;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+
+}
+
+.addnote-input{
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding-left: 9px;
+    outline: none;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+    
+    
+    
+}
+
+.btn-btn{
+    /* padding: 0; */
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 9px;
+    margin-top: 1rem;
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
